@@ -1,0 +1,16 @@
+{
+    "name": "effsp/phpnovo",
+    "authors": [
+        {
+            "name": "fspires",
+            "email": "ef.fspires@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\":"app"
+        },
+        "files": []
+    }
+}
