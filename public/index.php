@@ -1,10 +1,11 @@
 <?php
     use app\core\Router;
 
-    require '../vendor/autoload.php';
-
     session_start();
 
-    // dd($_SERVER);
+    $_SESSION['message'] = "";
+
+    require '../config/config.php';
+    require '../vendor/autoload.php';
 
     Router::run();

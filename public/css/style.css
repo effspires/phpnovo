@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.navcolor {
+    background:#21376b;
+}
+
+.login, .login:hover {
+    background: #f7b82f;
+}
+
+.colordefault {
+  background-color:#6C9E7F;
+}
+
+.colordefault:hover {
+  background-color:#287345
+}
+
+nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+  height: 140px;
+  line-height: 140px;
+}
+
+#user, #pass{
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
+	
+}
+
+#user:focus, #pass:focus{
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#user:focus::-webkit-input-placeholder, #pass:focus::-webkit-input-placeholder{
+	background-color: #fff9c4;
+	color: black;
+
+}
+
+#user:focus, #pass:focus{
+	background-color: #fff9c4;
+	color: black;
+}

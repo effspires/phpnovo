@@ -3,12 +3,6 @@
 
     class HomeController extends Controller {
         public function index() {
-            $this->view(
-                'Home',
-                [
-                    'name' => 'Fábio',
-                    'title' => 'Home'
-                ]
-            );            
+            $this->view('Home', ['title' => 'Home']);
         }
     }
