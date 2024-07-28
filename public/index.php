@@ -5,6 +5,6 @@
 
     session_start();
 
-    dd($_SERVER);
+    // dd($_SERVER);
 
     Router::run();

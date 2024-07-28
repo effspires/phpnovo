@@ -6,7 +6,8 @@
             return [
                 'get' => [
                     '/' => 'HomeController@index',
-                    '/update/[0-9]+' => 'UserController@index'
+                    '/user/edit/[0-9]+' => 'UserController@edit',
+                    '/name/[a-z]+' => 'UserController@index'
                 ],
                 'post' => []
             ];
